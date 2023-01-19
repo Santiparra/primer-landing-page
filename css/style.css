@@ -26,40 +26,66 @@ body {
     justify-content: center;
 }
 
-.navegacion {
-    color: white;
-    padding: 8px;
-}
-
 a {
     color: white;
     text-decoration: none;
 }
 
-.barra {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
+ul {
     list-style-type: none;
     padding: 0; 
     margin: 0;
 }
 
-.izquierda {
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.barra-iz {
     font-size: 18px;
     font-weight: 700;
 }
 
-li .derecha {
+.barra-der {
     display: flex;
-    gap: 16px;
+    gap: 12px;
 }
-
 
 .cabecera img {
     height: 200px;
     width: 400px;
+}
+
+.sub-cabecera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boton-subscripciones-1,
+.boton-subscripciones-2 {
+    font-weight: 700;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 11px;
+    background-color: #008080;
+}
+
+.encabezado {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.texto {
+    color: white;
+    font-size: 12px;
 }
 
 .carta img {
@@ -68,6 +94,7 @@ li .derecha {
     border-radius: 12px;
     border: 2px solid #008080;
 }
+
 
 .arriba .encabezado {
     text-align: center;
@@ -111,26 +138,36 @@ li .derecha {
 
 .autor-cita {
     font-weight: 700;
+    font-size: 15px;
     text-align: right;
     padding: 4px;
 }
 
 .caja-subscripciones {
     background-color: #008080;
-    padding: 12px;
+    padding: 52px;
     color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .titulo-subscripciones {
-    
+    font-weight: 700;
 }
 
 .texto-subscripciones {
-
+    color: white;
+    font-size: 12px;
 }
 
-.boton-subscripciones {
-
+.boton-subscripciones-2 {
+    border: 2px solid transparent;
+    border-color: white;
 }
 
 .texto-pie {
